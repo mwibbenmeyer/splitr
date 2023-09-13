@@ -75,7 +75,7 @@ get_met_gdas1 <- function(days,
   get_met_files(
     files = files,
     path_met_files = path_met_files,
-    ftp_dir = "ftp://arlftp.arlhq.noaa.gov/archives/gdas1"
+    ftp_dir = "https://www.ready.noaa.gov/data/archives/gdas1"
   )
   
 }
